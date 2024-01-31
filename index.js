@@ -5,7 +5,7 @@ require("dotenv").config()
 
 const router = require("./routes/router")
 const app = express()
-
+ 
 app.use(express.json())
 app.use(cors())
 app.set(express.static("./public"))
